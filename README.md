@@ -32,4 +32,4 @@ GB Inventory Management is an inventory management system that tracks equipment 
 
 ##  :raised_hands: Contributing
 Contributions, issues, and feature requests are welcome!
-Feel free to check the [issues page](https://github.com/CaloriesCounter67/Calorie-Tracker/issues) if you want to contribute.
+Feel free to check the [issues page](https://github.com/richardlara67/GB-Inventory-Management/issues) if you want to contribute.
