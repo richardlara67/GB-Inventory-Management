@@ -1,14 +1,29 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "enterpassword here";
 
-// Create connection
-$conn = new mysqli($servername, $username, $password);
+function openCon()
+{
+	$dbhost = "localhost";
+	$dbuser = "root";
+	$dbpass = "";
+	$db = "GB_inventory";
 
-// Check connection
-if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
+
+	// set variables for database credentials
+	$dbhost = "localhost";
+	$dbuser = "root";
+	$dbpass = "";
+	$db = "GB_inventory";
+	
+	// Create connection
+	$conn = new mysqli($dbhost, $dbuser, $dbpass, $db) or die("Connect failed: %s\n". $conn -> error);
+	
+	return $conn;
+
 }
-echo "Connected successfully";
+
+function CloseCon($conn)
+ {
+ $conn -> close();
+ }
+
 ?>
