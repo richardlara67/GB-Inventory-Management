@@ -5,7 +5,7 @@
 	$eid = $_POST['employeeID'];
 	$ename = $_POST['employeeName'];
 	$dou = $_POST['date'];
-	$ec = $_POST['equipmentCode']
+	$ec = $_POST['equipmentCode'];
 	$in = $_POST['actionType'];
 	$out = $_POST['actionType'];
 
