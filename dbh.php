@@ -1,12 +1,7 @@
 <?php
 
-function openCon()
+function openConn()
 {
-	$dbhost = "localhost";
-	$dbuser = "root";
-	$dbpass = "";
-	$db = "GB_inventory";
-
 
 	// set variables for database credentials
 	$dbhost = "localhost";
@@ -21,7 +16,7 @@ function openCon()
 
 }
 
-function CloseCon($conn)
+function closeConn($conn)
  {
  $conn -> close();
  }

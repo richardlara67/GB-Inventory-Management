@@ -1,17 +1,22 @@
-
 <?php
 	include_once 'dbh.php';
 
 	$eid = $_POST['employeeID'];
 	$ename = $_POST['employeeName'];
-	$dou = $_POST['date'];
+	$dou = $_POST['inputDate'];
 	$ec = $_POST['equipmentCode'];
-	$in = $_POST['actionType'];
-	$out = $_POST['actionType'];
+	$equipDesc = $_POST['equipmentDesc'];
+	//$in = $_POST['checkIn'];
+	//$out = $_POST['checkOut'];	
+	
+	$conn = openConn();
 
+	$stmt = $conn->prepare("INSERT INTO inventory(employee_id, employee_name, date_of_use, equip_code, equip_desc) values(?, ?, ?, ?, ?)");
 
-	$sql = "INSERT INTO inventory (employee_id, employee_name, date_of_use, check_out, check_in) VALUES ('$eid', $ename', '$dou', '$ec', '$in', '$out');";
+	$stmt->bind_param("issis", $eid, $ename, $dou, $ec, $equipDesc);
+	$stmt->execute();
+	echo "Registration succesful...";
+	$stmt->close();
+	closeConn($conn);
 
-	mysqli_query($conn, $sql);
-
-	header("Location: ../index.php?inventory_update=success");
+?>
