@@ -31,6 +31,12 @@ bld/
 [Ll]og/
 [Ll]ogs/
 
+### Adobe Dream Weaver ###
+
+# DW Dreamweaver added files
+_notes
+dwsync.xml
+
 # Visual Studio 2015/2017 cache/options directory
 .vs/
 # Uncomment if you have tasks that create the project's static files in wwwroot
