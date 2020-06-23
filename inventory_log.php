@@ -44,6 +44,8 @@ include('includes/header.php');
 		  </tbody>
 		</table>
 	</div>
-</body>
-</html>
+
+<?php
+include('includes/footer.php');
+?>
 

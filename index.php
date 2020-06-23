@@ -64,5 +64,7 @@ include('includes/header.php');
 			</div>
 		</form>
 	</div>
-	</body>
-	</html>
+
+<?php
+include('includes/footer.php');
+?>
