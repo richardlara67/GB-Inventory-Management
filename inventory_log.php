@@ -1,9 +1,8 @@
-<!DOCTYPE html>
-<html>
-<?php $title = 'Inventory Log'; ?>
-<?php include('includes/head.php'); ?>	
-<body>
-	<?php include('includes/nav-bar.php'); ?>
+<?php 
+$title = 'Inventory Log';
+include('includes/header.php'); 
+?>	
+
 	<div class="container py-5">
 		<table class="table table-striped">
 		  <thead>
@@ -45,6 +44,8 @@
 		  </tbody>
 		</table>
 	</div>
-</body>
-</html>
+
+<?php
+include('includes/footer.php');
+?>
 

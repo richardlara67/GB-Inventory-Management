@@ -1,10 +1,7 @@
-<!DOCTYPE html>
-<html>
-<?php $title = 'Inventory Update'; ?>
-<?php include('includes/head.php'); ?>	
-<body>
-	<?php include('includes/nav-bar.php'); ?>
-	<div class="container text-center pt-5"><h1>Update Inventory Log</h1></div>
+<?php 
+$title = 'Inventory Update';
+include('includes/header.php'); 
+?>	
 	<div class="container py-5">
 		<form>
 				<div class="form-group row">
@@ -29,5 +26,6 @@
 	</div>
 
 
-</body>
-</html>
+<?php
+include('includes/footer.php');
+?>

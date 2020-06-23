@@ -354,3 +354,5 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+_compareTemp/TMPS8L78V.php
+includes/._footer.php
