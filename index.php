@@ -1,10 +1,11 @@
-<!DOCTYPE html>
-<html>
-<?php $title = 'GB Inventory Management'; ?>
-<?php include('includes/head.php'); ?>	
-<body>
-	<?php include('includes/nav-bar.php'); ?>
-	<div class="container text-center pt-5"><h1>Use Equipment</h1></div>
+<?php 
+$title = 'GB Inventory Management';
+include('includes/header.php'); 
+?>	
+
+	<div class="container text-center pt-5">
+	<h1>Use Equipment</h1>
+	</div>
 	<div class="container py-5">
 			<form name="form1" action="update_inventory.php" method="post">
 				<div class="form-group row">
