@@ -2,10 +2,7 @@
 $title = 'GB Inventory Management';
 include('includes/header.php'); 
 ?>	
-
-	<div class="container text-center pt-5">
-	<h1>Use Equipment</h1>
-	</div>
+	<h1 class="text-center pt-5">Use Equipment</h1>
 	<div class="container py-5">
 			<form name="form1" action="update_inventory.php" method="post">
 				<div class="form-group row">
