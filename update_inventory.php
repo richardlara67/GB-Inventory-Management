@@ -1,5 +1,5 @@
 <?php
-	include_once 'dbh.php';
+	include_once 'dbconnect.php';
 
 	$eid = $_POST['employeeID'];
 	$ename = $_POST['employeeName'];

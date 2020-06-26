@@ -6,8 +6,8 @@ $pagename = str_replace('.php', '', $pagename);
 /* pages to include in the main menu */
 $mainmenu = array(
 	'index' => 'Use equipment',
-	'inventory_log' => 'View inventory',
-	'update_log' => 'Update log'
+	'inventory-log' => 'View inventory',
+	'update-log' => 'Update log'
 );
 
 /* Main menu navigation loop */
