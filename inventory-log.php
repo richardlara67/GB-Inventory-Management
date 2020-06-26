@@ -18,7 +18,7 @@ include('includes/header.php');
 		  </thead>
 		  <tbody>
 		<?php 
-			include_once 'dbconnect.php';
+			include_once 'includes/dbconnect.php';
 			$conn = openConn();
 			$query = "SELECT * FROM inventory";
 			$result = mysqli_query($conn, $query);
